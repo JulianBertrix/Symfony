@@ -1,0 +1,12 @@
+blog_list:
+    path:     /blog
+    controller: App\Controller\BlogController::list
+
+blog_show:
+    path:     /blog/{slug}
+    controller: App\Controller\BlogController::show
+about_us:
+    path:
+        fr: /a-propos
+        en: /about-us
+    controller: App\Controller\BlogController::about
